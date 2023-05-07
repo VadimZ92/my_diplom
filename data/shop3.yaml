@@ -1,0 +1,74 @@
+shop: Рыбалка
+categories:
+  - id: 105
+    name: Удочки
+  - id: 405
+    name: Спиннинги
+  - id: 705
+    name: Насадки
+
+goods:
+  - id: 44
+    category: 105
+    model: Team Salmo POLE
+    name: Удилище попл. без кол. Team Salmo POLE 6.00
+    price: 8000
+    price_rrc: 9990
+    quantity: 8
+    parameters:
+      "Длина": 6
+      "Материал": углеволокно
+      "Конструкция": телескопическое
+  - id: 4216313
+    category: 105
+    model: Sensas POWER MATCH PARALLEL
+    name: Удилище штекерное Sensas POWER MATCH PARALLEL
+    price: 68620
+    price_rrc: 71990
+    quantity: 4
+    parameters:
+      "Длина": 6
+      "Материал": углеволокно
+      "Конструкция": штекерное
+  - id: 4216226
+    category: 405
+    model: WFT Penzill SEATROUT II
+    name: Удилище спин. WFT Penzill SEATROUT II 32 3.05
+    price: 8900
+    price_rrc: 9800
+    quantity: 14
+    parameters:
+      "Длина": 2
+      "Материал": углеволокно
+      "Конструкция": штекерное
+  - id: 4672670
+    category: 405
+    model: Lucky John Progress
+    name: Удилище спин. Lucky John Progress CHUB
+    price: 4200
+    price_rrc: 5990
+    quantity: 3
+    parameters:
+      "Длина": 2.1
+      "Материал": углепластик
+      "Конструкция": штекерное
+  - id: 467265
+    category: 705
+    model: Mepps XD
+    name: Блесна вращающаяся
+    price: 1560
+    price_rrc: 1890
+    quantity: 31
+    parameters:
+      "Вес": 6г
+      "Материал": сталь
+  - id: 467567
+    category: 705
+    model: Джиг-головка
+    name: Джиг-головка с пружинкой крючок №1
+    price: 207
+    price_rrc: 314
+    quantity: 24
+    parameters:
+      "Вес": 4г
+      "Материал": сталь

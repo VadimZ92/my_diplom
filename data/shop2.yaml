@@ -1,0 +1,89 @@
+shop: Мотомир
+categories:
+  - id: 3
+    name: Экипировка
+  - id: 2
+    name: Аксессуары
+  - id: 4
+    name: Мотоциклы
+
+goods:
+  - id: 4215
+    category: 3
+    model: Шлем с забралом
+    name: Шлем с прозрачным забралом (черный)
+    price: 2500
+    price_rrc: 3100
+    quantity: 8
+    parameters:
+      "Вес": 1.5
+      "Материал": пластик
+      "Цвет": черный
+  - id: 4216
+    category: 3
+    model: Куртка
+    name: Куртка мотоциклетная усиленная (черный)
+    price: 25000
+    price_rrc: 29990
+    quantity: 9
+    parameters:
+      "размеры": 44-58
+      "Материал": кожа
+      "Цвет": черный
+  - id: 4217
+    category: 3
+    model: Ботинки
+    name: Ботинки мотоциклетные (черный)
+    price: 15000
+    price_rrc: 19990
+    quantity: 5
+    parameters:
+      "размеры": 41-45
+      "Материал": Кожа
+      "Цвет": черный
+  - id: 4672
+    category: 2
+    model: YAMAHA MT-09 TOURING
+    name: Стекло ветровое YAMAHA
+    price: 15000
+    price_rrc: 16990
+    quantity: 4
+    parameters:
+      "толщина": 2мм
+      "Цвет": черный
+  - id: 4675
+    category: 4
+    model: GS Motors S5
+    name: Питбайк GS Motors S5
+    price: 30000
+    price_rrc: 46990
+    quantity: 3
+    parameters:
+      "мощность": 2.5 лс
+      "Трансмиссия": Вариатор
+      "Подача топлива": карбюратор
+      "Максимальная скорость": 30 км/ч
+  - id: 46785
+    category: 4
+    model: Suzuki SV 1000
+    name: Мотоцикл Suzuki SV 1000 S
+    price: 299000
+    price_rrc: 340000
+    quantity: 1
+    parameters:
+      "мощность": 120 л.с.
+      "Трансмиссия": Механика
+      "Подача топлива": инжектор
+      "Максимальная скорость": 235 км/ч
+  - id: 46785
+    category: 4
+    model: DUCATI Panigale
+    name: Мотоцикл DUCATI Panigale V4 S-Ducati Red
+    price: 2498000
+    price_rrc: 3198000
+    quantity: 1
+    parameters:
+      "мощность": 214 л.с.
+      "Трансмиссия": Механика
+      "Подача топлива": инжектор
+      "Максимальная скорость": много
