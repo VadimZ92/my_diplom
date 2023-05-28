@@ -1,4 +1,5 @@
 from django.urls import path
+# from rest_framework.routers import DefaultRouter
 from backend.views import ContractorUpdate, ShopView, CategoryView, ProductInfoView, RegisterUser, LoginUser,\
     BasketView, ContactView, OrderView, ContractorOrders, ContractorState, PasswordReset
 
@@ -18,3 +19,18 @@ urlpatterns = [
     path('order', OrderView.as_view(), name='order'),
 
 ]
+#
+# router = DefaultRouter()
+# router.register('contractor/update', ContractorUpdate)
+# router.register('contractor/state', ContractorState)
+# router.register('contractor/orders', ContractorOrders)
+# router.register('user/register', RegisterUser)
+# router.register('user/contact', ContactView)
+# router.register('user/login', LoginUser)
+# router.register('user/password_reset', PasswordReset)
+# router.register('categories', CategoryView)
+# router.register('shops', ShopView)
+# router.register('products', ProductInfoView)
+# router.register('basket', BasketView)
+# router.register('order', OrderView)
+# urlpatterns = router.urls

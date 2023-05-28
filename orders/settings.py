@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django_rest_passwordreset',
     'backend',
 
-
 ]
 
 MIDDLEWARE = [
@@ -89,7 +88,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '5432',
         'USER': 'postgres',
-        'PASSWORD': '**********',
+        'PASSWORD': '1gf3470bb++',
     }
 }
 
@@ -149,12 +148,21 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 40,
 
+    "TEST_REQUEST_DEFAULT_FORMAT": "json",
+
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
         'rest_framework.renderers.BrowsableAPIRenderer',
 
     ),
-
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.UserRateThrottle',
+        'rest_framework.throttling.AnonRateThrottle',
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        "user": "10/minute",
+        "anon": "5/minute",
+    },
     'DEFAULT_AUTHENTICATION_CLASSES': (
         # 'rest_framework.authentication.SessionAuthentication',
         # 'rest_framework.authentication.BasicAuthentication',
